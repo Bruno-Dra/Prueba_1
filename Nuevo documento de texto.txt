@@ -1,0 +1,9 @@
+int potencia(int b,int e)
+{
+	int r = 0;
+	if (e == 0)
+		r = 1;
+	else 
+		r = b  potencia(b, e - 1);
+	return r;
+}
